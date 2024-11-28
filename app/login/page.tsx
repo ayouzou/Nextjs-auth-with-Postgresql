@@ -1,11 +1,13 @@
 import React from 'react'
 import LoginForm from '../components/LoginForm'
+import AuthButtons from '../components/AuthButtons'
 
 const page = () => {
     return (
-        <div>
+        <main className="flex flex-col justify-center items-center my-auto ">
             <LoginForm />
-        </div>
+            <AuthButtons/>
+        </main>
     )
 }
 
